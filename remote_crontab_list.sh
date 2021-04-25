@@ -12,7 +12,7 @@
 # 直播间抽奖
 5 8-23/1 * * * node /scripts/jd_live_lottery_social.js >> /scripts/logs/jd_live_lottery_social.log 2>&1
 # 整点京豆雨
-1 0-23 * * * node /scripts/lxk0301_live_redrain.js >> /scripts/logs/lxk0301_live_redrain.log 2>&1
+1 0-23/1 * * * node /scripts/jd_super_redrain.js >> /scripts/logs/jd_super_redrain.js.log 2>&1
 # 加购有礼
 15 12 * * * node /scripts/monk_shop_add_to_car.js >> /scripts/logs/monk_shop_add_to_car.log 2>&1
 # 有机牧场
